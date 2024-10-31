@@ -37,6 +37,14 @@
 
   </tr>
   <tr>
+        <td class="evenRow">
+        <s:fielderror fieldName = "invoiceBean.amount" />
+         <s:text name="form.amount.message"/>
+          <s:textfield id="amount" name="invoiceBean.amount"/>
+        </td>
+      </tr>
+    <tr>
+  <tr>
     <td class="evenRow">
         <s:submit align="left" value="Enviar"/>
     </td>

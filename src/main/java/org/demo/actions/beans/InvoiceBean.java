@@ -7,6 +7,8 @@ public class InvoiceBean {
     private String subject;
     private Date dateFrom;
     private Date dateTo;
+    private String amount;
+    private String importemasiva;
 
     public Date getDateFrom() {
         return dateFrom;
@@ -31,4 +33,10 @@ public class InvoiceBean {
     public void setSubject(String subject) {
         this.subject = subject;
     }
+
+    public String getAmount() { return amount; }
+    public void setAmount(String amount) { this.amount = amount; }
+
+    public String getImportemasiva() { return importemasiva; }
+    public void setImportemasiva(String importemasiva) { this.importemasiva = importemasiva; }
 }

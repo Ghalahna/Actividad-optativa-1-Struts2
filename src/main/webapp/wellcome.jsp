@@ -14,4 +14,8 @@
     <h1>Resumen de factura: </h1>
 
 </body>
+    <p> Concepto : <s:text name="invoiceBean.subject"/> </p>
+    <p> Importe  : <s:text name="invoiceBean.amount"/> &euro;</p>
+    <p> IVA : <s:text name="IVA"/> % </p>
+    <p> Importe Total : <s:text name="invoiceBean.importemasiva"/> &euro;</p>
 </html>
